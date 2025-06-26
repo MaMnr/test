@@ -340,19 +340,44 @@ bouton4.addEventListener("click", () => {
     son4.play();
 });
 </script>
+<!-- Bouton et audio pour ssstik.io_1750930407441.mp3 -->
+<button id="bouton-son6">UN QI DE 143</button>
+<audio id="son-clique6">
+    <source src="ssstik.io_1750930407441.mp3" type="audio/mpeg">
+    Ton navigateur ne supporte pas l'audio (désolé pour toi)
+</audio>
 <script>
-ut si le son est déjà en cours
-    son1.play(); // Joue le son 
+// Bouton audio SSSTIK.IO
+const bouton6 = document.getElementById("bouton-son6");
+const son6 = document.getElementById("son-clique6");
+bouton6.addEventListener("click", () => {
+    son6.currentTime = 0;
+    son6.play();
 });
-//Quand le bouton2 est cliqué 
+</script>
+<script>
+// Bouton audio 1
+const bouton1 = document.getElementById("bouton-son1");
+const son1 = document.getElementById("son-clique");
+bouton1.addEventListener("click", () => {
+    son1.currentTime = 0;
+    son1.play();
+});
+
+// Bouton audio 2
+const bouton2 = document.getElementById("bouton-son2");
+const son2 = document.getElementById("son-clique2");
 bouton2.addEventListener("click", () => {
-    son2.currentTime = 0; // Remet au début si le son est déjà en cours
-    son2.play(); // Joue le son
+    son2.currentTime = 0;
+    son2.play();
 });
-//Quand le bouton3 est cliqué 
+
+// Bouton audio 3
+const bouton3 = document.getElementById("bouton-son3");
+const son3 = document.getElementById("son-clique3");
 bouton3.addEventListener("click", () => {
-    son3.currentTime = 0; // Remet au début si le son est déjà en cours
-    son3.play(); // Joue le son
+    son3.currentTime = 0;
+    son3.play();
 });
 </script>
    
