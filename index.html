@@ -195,6 +195,10 @@ font-weight: bold;
     transition: all 0.3 ease;
     
 }
+#3etitre{
+        text-align: left;
+       font-size: 30px;
+}
    </style>
     </head>
  
@@ -240,8 +244,7 @@ font-weight: bold;
         <source src="asterion.mp3" type="audio/mpeg">
         Ton navigateur ne supporte pas l'audio ( désolé pour toi)
     </audio>
-
-    
+ 
     
     <h2 id="débutparagraphe"> Maintenant que nous avons fini de vous présenter Astérion, je vais vous parler de son contenu.</h2>
     
@@ -273,15 +276,45 @@ Il nous propose aussi des sorties au restaurant, etc.
         Ton navigateur ne supporte pas l'audio ( désolé pour toi)
     </audio>
 
-    
+
+
       </p>
-      <button id="bouton-son2">HYYYYYYYYYYYYYPPPPPEEEEE</button>
-    <script>
+      <button id="bouton-son2">HYYYYYYYYYYYYYPPPPPEEEEE</button> 
+      
+      <h1 id="3etitre">3.Ses dramas</h1>
+<h2>Malheureusement, nous allons devoir arriver aux bad buzz et aux controverses autour de NOTRE bon Astérion (certaines sont accentuées par Punisher).</h2>
+
+<h1 id="3etitre">Bad-buzz</h1>
+<p>Il est connu pour de très nombreux bad-buzz ; l'un de ses dramas principaux c'est lorsqu'il a arnaqué deux petites filles lors d'un vide grenier, mais aussi son avis lorsqu'il analyse un jeu est souvent jugé mauvais.</p>
+    
+    
+    <h1 id="3etitre">Furries</h1>
+    <p>Il est notamment réputé pour son obsession pour les dessins de "furries", ce qui ne plaît pas trop à la communauté. </p>
+
+    <h1 id="3etitre">Affaire "Totoss"</h1>
+    <p>En 2015, Astérion participe à une convention où celui-ci aurait dénoncé les prix pratiqués d'un stand de jeux vidéo, ce qui a provoqué pas mal de bruit dans sa communauté. Le gérant du stand en question aurait soi-disant été clair que cette hausse de prix était un "troll" de sa part.</p>
+
+    <h1 id="3etitre">Nouvel ouvrage</h1>
+    <p>Son ouvrage publié en 2020, "Mon quotidien, le cyberharcèlement", reçoit des retours unanimement mauvais, jugeant la qualité de l'expression et du propos du Youtubeur, passant tout le long pour une victime. </p>
+
+    <h1 id="3etitre">Accusations d'agressions sexuelles et de pédophilie</h1>
+    <p>Le 24 septembre 2023, il a été accusé d'avoir agressé sexuellement une fille de 17 ans durant l'été de cette même année. L'adolescente, du nom d'Aylin, a écrit un thread sur X (@nyan4444444) expliquant en détail comment elle a été agressée.</p>
+
+    
+<button id="bouton-son3">Astérion SWAT ( oh non ils sont là)</button> 
+<audio id="son-clique3">
+    <source src="asterion-se-faitswat-101soundboards.mp3" type="audio/mpeg">
+    Ton navigateur ne supporte pas l'audio ( désolé pour toi)
+</audio>
+
+<script>
 // Pour récupérer les éléments
 const bouton1 = document.getElementById("bouton-son1");
 const son1 = document.getElementById("son-clique");
 const bouton2 = document.getElementById("bouton-son2");
 const son2 = document.getElementById("son-clique2");
+const bouton3 = document.getElementById("bouton-son3");
+const son3 = document.getElementById("son-clique3");
 //Quand le bouton1 est cliqué 
 bouton1.addEventListener("click", () => {
     son1.currentTime = 0; // Remet au début si le son est déjà en cours
@@ -292,6 +325,14 @@ bouton2.addEventListener("click", () => {
     son2.currentTime = 0; // Remet au début si le son est déjà en cours
     son2.play(); // Joue le son
 });
+//Quand le bouton3 est cliqué 
+bouton3.addEventListener("click", () => {
+    son3.currentTime = 0; // Remet au début si le son est déjà en cours
+    son3.play(); // Joue le son
+});
+</script>
+   
+
         
         
 </script>
