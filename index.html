@@ -358,6 +358,21 @@ bouton4.addEventListener("click", () => {
     <source src="asterion-youtubeur-beauté-made-with-Voicemod.mp3" type="audio/mpeg">
     Ton navigateur ne supporte pas l'audio (désolé pour toi)
 </audio>
+<!-- Bouton et audio pour astérion--je-prends-mon-air-consaguin-made-with-Voicemod.mp3 -->
+<button id="bouton-son9">Je prends mon air consanguin</button>
+<audio id="son-clique9">
+    <source src="astérion--je-prends-mon-air-consaguin-made-with-Voicemod.mp3" type="audio/mpeg">
+    Ton navigateur ne supporte pas l'audio (désolé pour toi)
+</audio>
+<script>
+// Bouton audio JE PRENDS MON AIR CONSANGUIN
+const bouton9 = document.getElementById("bouton-son9");
+const son9 = document.getElementById("son-clique9");
+bouton9.addEventListener("click", () => {
+    son9.currentTime = 0;
+    son9.play();
+});
+</script>
 <script>
 // Bouton audio ASTERION YOUTUBEUR BEAUTÉ
 const bouton8 = document.getElementById("bouton-son8");
