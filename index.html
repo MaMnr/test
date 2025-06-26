@@ -196,13 +196,13 @@ font-weight: bold;
     cursor: pointer;
 }
 #bouton-son1:hover {
-    background-color:rgb(0,0,0);
+    background-color:rgb(8, 92, 8);
     transform: scale(1.05);
     transition: all 0.3 ease;
     
 }
 #bouton-son2:hover {
-    background-color:rgb(0,0,0);
+    background-color:rgb(4, 100, 12);
     transform: scale(1.05);
     transition: all 0.3 ease;
     
@@ -213,7 +213,7 @@ font-weight: bold;
        font-size: 23px;
 }
 #bouton-son3:hover{
-    background-color:rgb(0,0,0);
+    background-color:rgb(10, 92, 7);
     transform: scale(1.05);
     transition: all 0.3 ease;
 }
@@ -223,6 +223,11 @@ font-weight: bold;
 }
 .souligne {
     text-decoration: underline;
+}
+.boutonref:hover {
+    background-color:rgb(4, 100, 12);
+    transform: scale(1.05);
+    transition: all 0.3 ease;
 }
    </style>
     </head>
@@ -327,12 +332,12 @@ Il nous propose aussi des sorties au restaurant, etc.</p><br><br>
     <source src="asterion-se-faitswat-101soundboards.mp3" type="audio/mpeg">
     Ton navigateur ne supporte pas l'audio ( désolé pour toi)
 </audio>
-<button id="bouton-son4">Menace Asterion (Scary Alert)</button>
+<button id="bouton-son4" class="boutonref">Menace Asterion (Scary Alert)</button>
 <audio id="son-clique4">
     <source src="asterion-menace-made-with-Voicemod.mp3" type="audio/mpeg">
     Ton navigateur ne supporte pas l'audio (désolé pour toi)
 </audio>
-<button id="bouton-son5">AsteChad Sigma Boy</button>
+<button id="bouton-son5" class="boutonref">AsteChad Sigma Boy</button>
 <audio id="son-clique5">
     <source src="asterion-sigma-boy-made-with-Voicemod.mp3" type="audio/mpeg">
     Ton navigateur ne supporte pas l'audio (désolé pour toi)
@@ -354,26 +359,25 @@ bouton4.addEventListener("click", () => {
     son4.play();
 });
 </script>
-<!-- Bouton et audio pour ssstik.io_1750930407441.mp3 -->
-<button id="bouton-son6">UN QI DE 143</button>
+<button id="bouton-son6" class="boutonref">UN QI DE 143</button>
 <audio id="son-clique6">
     <source src="ssstik.io_1750930407441.mp3" type="audio/mpeg">
     Ton navigateur ne supporte pas l'audio (désolé pour toi)
 </audio>
 <!-- Bouton et audio pour ssstik.io_1750930735526.mp3 -->
-<button id="bouton-son7">2 REF EN 1</button>
+<button id="bouton-son7" class="boutonref">2 REF EN 1</button>
 <audio id="son-clique7">
     <source src="ssstik.io_1750930735526.mp3" type="audio/mpeg">
     Ton navigateur ne supporte pas l'audio (désolé pour toi)
 </audio>
 <!-- Bouton et audio pour asterion-youtubeur-beauté-made-with-Voicemod.mp3 -->
-<button id="bouton-son8">Asterion Youtubeur Beauté ( Antoine Daniel )</button>
+<button id="bouton-son8" class="boutonref">Asterion Youtubeur Beauté ( Antoine Daniel )</button>
 <audio id="son-clique8">
     <source src="asterion-youtubeur-beauté-made-with-Voicemod.mp3" type="audio/mpeg">
     Ton navigateur ne supporte pas l'audio (désolé pour toi)
 </audio>
 <!-- Bouton et audio pour astérion--je-prends-mon-air-consaguin-made-with-Voicemod.mp3 -->
-<button id="bouton-son9">Je prends mon air consanguin</button>
+<button id="bouton-son9" class="boutonref">Je prends mon air consanguin</button>
 <audio id="son-clique9">
     <source src="astérion--je-prends-mon-air-consaguin-made-with-Voicemod.mp3" type="audio/mpeg">
     Ton navigateur ne supporte pas l'audio (désolé pour toi)
