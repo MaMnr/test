@@ -317,6 +317,20 @@ Il nous propose aussi des sorties au restaurant, etc.
     <source src="asterion-menace-made-with-Voicemod.mp3" type="audio/mpeg">
     Ton navigateur ne supporte pas l'audio (désolé pour toi)
 </audio>
+<button id="bouton-son5">AsteChad Sigma Boy</button>
+<audio id="son-clique5">
+    <source src="asterion-sigma-boy-made-with-Voicemod.mp3" type="audio/mpeg">
+    Ton navigateur ne supporte pas l'audio (désolé pour toi)
+</audio>
+<script>
+// Bouton audio Sigma Boy
+const bouton5 = document.getElementById("bouton-son5");
+const son5 = document.getElementById("son-clique5");
+bouton5.addEventListener("click", () => {
+    son5.currentTime = 0;
+    son5.play();
+});
+</script>
 <script>
 // Bouton audio supplémentaire
 const bouton4 = document.getElementById("bouton-son4");
@@ -327,16 +341,7 @@ bouton4.addEventListener("click", () => {
 });
 </script>
 <script>
-// Pour récupérer les éléments
-const bouton1 = document.getElementById("bouton-son1");
-const son1 = document.getElementById("son-clique");
-const bouton2 = document.getElementById("bouton-son2");
-const son2 = document.getElementById("son-clique2");
-const bouton3 = document.getElementById("bouton-son3");
-const son3 = document.getElementById("son-clique3");
-//Quand le bouton1 est cliqué 
-bouton1.addEventListener("click", () => {
-    son1.currentTime = 0; // Remet au début si le son est déjà en cours
+ut si le son est déjà en cours
     son1.play(); // Joue le son 
 });
 //Quand le bouton2 est cliqué 
