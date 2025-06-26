@@ -184,17 +184,20 @@ font-weight: bold;
     border-radius: 100px;
     width: 150px;
 }
-#bouton-son1{
+.container {
+          display: flex;
+          justify-content: center;
+          margin: 2rem 0;
+}
+#bouton-son1 {
     padding: 1em 2em;
     font-size: 1.2rem;
     cursor: pointer;
-    margin-left:600px;
 }
    </style>
     </head>
  
 <body>
-<
 
     <header>
         <nav>
@@ -226,26 +229,24 @@ Plus récemment, il lança sa carrière musicaleuh en 2024 et continue encore en
 
 Même si sa collection de jeux est énorme et impressionante, fruit d'années de collection et de négociation dans des vides-greniers, sa collection de dramas visant à sa perte est grande aussi... étant la cause de sa baisse d'abonnés, de popularité et de respect.<br><br>
 
-Malgré cela depuis des années sa communauté continue de le supporter grâce à sa personnalité unique qui le démarque du YouTube français mais avec les conséquences qui s'en suivent comme le fait qu'il n'est plus invité aux conventions depuis 2023...</p><br><br><br>
+Malgré cela depuis des années sa communauté continue de le supporter grâce à sa personnalité unique qui le démarque du YouTube français mais avec les conséquences qui s'en suivent comme le fait qu'il n'est plus invité aux conventions depuis 2023...</p><br>
     </div>
     <audio id="son-clique">
         <source src="asterion-serano-tres-sale.mp3" type="audio/mpeg">
         Ton navigateur ne supporte pas l'audio ( désolé pour toi)
     </audio>
 
-    <button id="bouton-son1"> Trés salé johan </button>
+    <div class="container"><button id="bouton-son1"> Trés salé johan </button></div>
     <audio id="son-clique2">
         <source src="asterion.mp3" type="audio/mpeg">
         Ton navigateur ne supporte pas l'audio ( désolé pour toi)
     </audio>
-    <br><br>
     <br>
-    <br>
-    <h2 id="débutparagraphe"> Maintenant que nous avons fini de vous présenter Astérion, je vais vous parler de son contenu.</h2>
+    <h2 id="débutparagraphe"> Maintenant que nous avons fini de vous présenter <strong>Astérion</strong>, nous allons vous parler de son contenu.</h2><br>
     
     <h1 id="seschaines">2. Ses chaînes</h1>
 
-    <h2 id="chaineprincipal">Asterion :<img src="logo chaine principal.jpg" id="logochaineprincipal"></h2>
+    <h2 id="chaineprincipal">Asterion :<img src="logo chaine principal.jpg" id="logochaineprincipal"></h2><br><br><br>
 <p> Asterion possède comme tout le monde une chaîne principal qui porte son nom "Asterion", sur cette chaîne il propose :</p>
 
     <p>Test et analyse de fausses consoles / contrefaçons :</p>
@@ -263,7 +264,7 @@ Malgré cela depuis des années sa communauté continue de le supporter grâce �
 Cette chaîne est basée sur la cuisine, la nourriture et le partage en famille.
 Elle comprend des vidéos de recettes et de dégustations. Jonathan (parfois accompagné de son frère) nous mijote de bons petits plats sucrés, et parfois même très salés.
 Il nous propose aussi des sorties au restaurant, etc.
-<h2 id="asminotaur">ASMinotauR :<img src="3e chaîne.jpg" id="logochaineprincipal"</h2>
+<h2 id="asminotaur">ASMinotauR :<img src="3e chaîne.jpg" id="logochaineprincipal"></h2>
 <p>ASMinotauR est une chaîne dédiée à l’ASMR, lancée le 19 mars 2015. Elle se démarque par un contenu apaisant, mettant en scène un univers de minotaure relaxant, avec notamment du roleplay, du tapping, des sons inaudibles, le tout avec parfois des références à sa passion pour les jeux vidéo</p>
 
   <audio id="son-clique2">
@@ -273,7 +274,7 @@ Il nous propose aussi des sorties au restaurant, etc.
 
     
       </p>
-      <button id="bouton-son2">HYYYYYYYYYYYYYPPPPPEEEEE</button>
+      <div class="container"><button id="bouton-son2">HYYYYYYYYYYYYYPPPPPEEEEE</button></div>
     <script>
 // Pour récupérer les éléments
 const bouton1 = document.getElementById("bouton-son1");
