@@ -346,6 +346,21 @@ bouton4.addEventListener("click", () => {
     <source src="ssstik.io_1750930407441.mp3" type="audio/mpeg">
     Ton navigateur ne supporte pas l'audio (désolé pour toi)
 </audio>
+<!-- Bouton et audio pour ssstik.io_1750930735526.mp3 -->
+<button id="bouton-son7">2 REF EN 1</button>
+<audio id="son-clique7">
+    <source src="ssstik.io_1750930735526.mp3" type="audio/mpeg">
+    Ton navigateur ne supporte pas l'audio (désolé pour toi)
+</audio>
+<script>
+// Bouton audio BOOSTÉ À 143%
+const bouton7 = document.getElementById("bouton-son7");
+const son7 = document.getElementById("son-clique7");
+bouton7.addEventListener("click", () => {
+    son7.currentTime = 0;
+    son7.play();
+});
+</script>
 <script>
 // Bouton audio SSSTIK.IO
 const bouton6 = document.getElementById("bouton-son6");
