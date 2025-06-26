@@ -184,7 +184,6 @@ font-weight: bold;
     border-radius: 100px;
     width: 150px;
 }
-<<<<<<< HEAD
 .container {
           display: flex;
           justify-content: center;
@@ -194,7 +193,8 @@ font-weight: bold;
     padding: 1em 2em;
     font-size: 1.2rem;
     cursor: pointer;
-=======
+}
+
 #bouton-son1:hover {
     background-color:rgb(0,0,0);
     transform: scale(1.05);
@@ -208,15 +208,21 @@ font-weight: bold;
     
     
 }
-#3etitre{
-        text-align: left;
-       font-size: 30px;
+.troisiemetitre{
+        text-align: center;
+       font-size: 23px;
 }
 #bouton-son3:hover{
     background-color:rgb(0,0,0);
     transform: scale(1.05);
     transition: all 0.3 ease;
->>>>>>> 474889831559d337d2d620ed2fc3d4a7cdc0ea94
+}
+#troisiemetitredebut{
+    font-size: 30px;
+    text-align: center;
+}
+.souligne {
+    text-decoration: underline;
 }
    </style>
     </head>
@@ -265,14 +271,8 @@ Malgré cela depuis des années sa communauté continue de le supporter grâce �
         <source src="asterion.mp3" type="audio/mpeg">
         Ton navigateur ne supporte pas l'audio ( désolé pour toi)
     </audio>
-<<<<<<< HEAD
     <br>
     <h2 id="débutparagraphe"> Maintenant que nous avons fini de vous présenter <strong>Astérion</strong>, nous allons vous parler de son contenu.</h2><br>
-=======
- 
-    
-    <h2 id="débutparagraphe"> Maintenant que nous avons fini de vous présenter Astérion, je vais vous parler de son contenu.</h2>
->>>>>>> 474889831559d337d2d620ed2fc3d4a7cdc0ea94
     
     <h1 id="seschaines">2. Ses chaînes</h1>
 
@@ -290,7 +290,7 @@ Malgré cela depuis des années sa communauté continue de le supporter grâce �
  
 
       <h2 id="chainesecondaire">Jonathan vous régale:<img src="chaîne secondaire.jpg" id="logochaineprincipal"></h2> 
-      <p>Sur cette chaîne, ce n'est plus Astérion devant la caméra, mais bien Jonathan, car elle adopte un ton plus décontracté et familial que sa chaîne principale.
+      <p>Sur cette chaîne, ce n'est plus Astérion devant la caméra, mais bien <span class="souligne">Jonathan</span>, car elle adopte un ton plus décontracté et familial que sa chaîne principale.<br>
 Cette chaîne est basée sur la cuisine, la nourriture et le partage en famille.
 Elle comprend des vidéos de recettes et de dégustations. Jonathan (parfois accompagné de son frère) nous mijote de bons petits plats sucrés, et parfois même très salés.
 Il nous propose aussi des sorties au restaurant, etc.
@@ -301,44 +301,36 @@ Il nous propose aussi des sorties au restaurant, etc.
         <source src="asterion.mp3" type="audio/mpeg">
         Ton navigateur ne supporte pas l'audio ( désolé pour toi)
     </audio>
-
-
-
       </p>
-<<<<<<< HEAD
       <div class="container"><button id="bouton-son2">HYYYYYYYYYYYYYPPPPPEEEEE</button></div>
-    <script>
-=======
-      <button id="bouton-son2">HYYYYYYYYYYYYYPPPPPEEEEE</button> 
       
-      <h1 id="3etitre">3.Ses dramas</h1>
+      <h1 id="troisiemetitredebut">3.Ses dramas</h1>
 <h2>Malheureusement, nous allons devoir arriver aux bad buzz et aux controverses autour de NOTRE bon Astérion (certaines sont accentuées par Punisher).</h2>
 
-<h1 id="3etitre">Bad-buzz</h1>
+<h1 class="troisiemetitre">Bad-buzz</h1>
 <p>Il est connu pour de très nombreux bad-buzz ; l'un de ses dramas principaux c'est lorsqu'il a arnaqué deux petites filles lors d'un vide grenier, mais aussi son avis lorsqu'il analyse un jeu est souvent jugé mauvais.</p>
     
     
-    <h1 id="3etitre">Furries</h1>
+    <h2 class="troisiemetitre">Furries</h3>
     <p>Il est notamment réputé pour son obsession pour les dessins de "furries", ce qui ne plaît pas trop à la communauté. </p>
 
-    <h1 id="3etitre">Affaire "Totoss"</h1>
+    <h2 class="troisiemetitre">Affaire "Totoss"</h2>
     <p>En 2015, Astérion participe à une convention où celui-ci aurait dénoncé les prix pratiqués d'un stand de jeux vidéo, ce qui a provoqué pas mal de bruit dans sa communauté. Le gérant du stand en question aurait soi-disant été clair que cette hausse de prix était un "troll" de sa part.</p>
 
-    <h1 id="3etitre">Nouvel ouvrage</h1>
+    <h2 class="troisiemetitre">Nouvel ouvrage</h2>
     <p>Son ouvrage publié en 2020, "Mon quotidien, le cyberharcèlement", reçoit des retours unanimement mauvais, jugeant la qualité de l'expression et du propos du Youtubeur, passant tout le long pour une victime. </p>
 
-    <h1 id="3etitre">Accusations d'agressions sexuelles et de pédophilie</h1>
+    <h2 class="troisiemetitre">Accusations d'agressions sexuelles et de pédophilie</h2>
     <p>Le 24 septembre 2023, il a été accusé d'avoir agressé sexuellement une fille de 17 ans durant l'été de cette même année. L'adolescente, du nom d'Aylin, a écrit un thread sur X (@nyan4444444) expliquant en détail comment elle a été agressée.</p>
 
     
-<button id="bouton-son3">Astérion SWAT ( oh non ils sont là)</button> 
+<div class="container"><button id="bouton-son3">Astérion SWAT ( oh non ils sont là)</button></div>
 <audio id="son-clique3">
     <source src="asterion-se-faitswat-101soundboards.mp3" type="audio/mpeg">
     Ton navigateur ne supporte pas l'audio ( désolé pour toi)
 </audio>
 
 <script>
->>>>>>> 474889831559d337d2d620ed2fc3d4a7cdc0ea94
 // Pour récupérer les éléments
 const bouton1 = document.getElementById("bouton-son1");
 const son1 = document.getElementById("son-clique");
