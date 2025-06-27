@@ -228,12 +228,43 @@ font-weight: bold;
     background-color:rgb(4, 100, 12);
     transform: scale(1.05);
     transition: all 0.3 ease;
-}
-footer {
-    background: url(https://static.wikia.nocookie.net/youtuberfrancais/images/8/85/Ast%C3%A9rion.jpg/revision/latest?cb=20200623165255&path-prefix=fr);
-    background-size:cover;
+}#footer-bg {
+    background-image: url(https://static.wikia.nocookie.net/youtuberfrancais/images/8/85/Ast%C3%A9rion.jpg/revision/latest?cb=20200623165255&path-prefix=fr);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
+    position: absolute;
+    inset: 0;
+    filter: brightness(40%);
+    z-index: 1;
+}
+    footer {
+    position: relative;   
+    bottom: 0;           
+    left: 0;  
+    height: 600px;             
+    
+    background-size: cover;       
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 30px;
+}
+#footer-content {
+    position: relative;  
+    z-index: 1;
+    color: #ffffff;
+    padding: 20px;
+}
+footer a {
+    color: #ffffff;
+
+}
+footer a:hover {
+    color: rgb(164, 164, 184);
+    text-decoration: underline;
+}
+footer a:visited {
+    color: #ffffff;
 }
    </style>
     </head>
@@ -454,20 +485,16 @@ bouton3.addEventListener("click", () => {
 
 
     </ul>
- 
-  <div class="contenue-footer">
-  <div class="bloc footer-services">
+    <div id="footer-bg"></div>
+    <div id="footer-content">
     <h3>Ses réseaux</h3>
     <ul class="liste-horaires">
 <li><a href="https://www.youtube.com/c/Ast%C3%A9rionlebon">📺 Chaîne YouTube principale</a></li><br>
 <li><a href="https://www.youtube.com/@ASMinotauR">🎮 Chaîne secondaire ASMinotauR</a></li><br>
 <li><a href="https://www.youtube.com/@Jonathan54">🍽️ Chaîne "Jonathan vous régale</a></li>
  </ul>
-  </div>
-
     </ul>
   </div>
-
 </div>
 
 
